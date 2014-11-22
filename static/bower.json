@@ -12,5 +12,10 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "homepage": "https://github.com/JuloWaks/pyar_map",
+  "dependencies": {
+    "leaflet": "~0.7.3",
+    "normalize.css": "~3.0.2"
+  }
 }
