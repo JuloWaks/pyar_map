@@ -5,6 +5,13 @@ __pycache__/
 # C extensions
 *.so
 
+#Doit db
+.doit.db
+
+
+#bower stuff
+static/bower_components/
+
 # Distribution / packaging
 .Python
 env/

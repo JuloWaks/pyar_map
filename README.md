@@ -1,9 +1,11 @@
-Members Map
+#Members Map
 
-First:
+##First:
+
     sudo apt-get install sqlite3
     run in sqlite3 CLI the following "sqlite> CREATE VIRTUAL TABLE testrtree USING rtree(id,minX,maxX,minY,maxY);"
-    if you get an error you should referr to : _https://docs.djangoproject.com/en/dev/ref/contrib/gis/install/spatialite/#create-spatialite-db
+
+if you get an error you should referr to : _https://docs.djangoproject.com/en/dev/ref/contrib/gis/install/spatialite/#create-spatialite-db
 
 
     then you should run :
@@ -12,6 +14,11 @@ First:
     spatialite geodjango.db "SELECT InitSpatialMetaData();"
 
     
+## Static Frontend
 
+placed on 
+`static/index.html`
+
+move to static and install bower dependences
 
 
