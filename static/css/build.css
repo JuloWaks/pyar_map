@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Share Tech Mono';
+}
+.map {
+  height: 100%;
+}
+.member {
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  background: url('../img/marker-simple.svg') no-repeat;
+}
+input {
+  font-family: inherit;
+  background-color: transparent;
+  border: 1px solid #141212;
+  margin: .1em;
+  background: #b9b6b6;
+}
+button {
+  font-family: inherit;
+  background-color: #b0a6a6;
+  border: none;
+  padding: .5em;
+  margin: .5em 0;
+  border-radius: .2em;
+  color: #232323;
+  font-weight: bold;
+}
+button:hover,
+buttonactive {
+  background-color: #988b8b;
+}
+.add-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #808080;
+  text-align: right;
+  width: 300px;
+  padding: .5em;
+  border-bottom-left-radius: .5em;
+}
+.add-box h1 {
+  margin: .2em;
+}
+.search {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFF;
+  text-align: center;
+}
